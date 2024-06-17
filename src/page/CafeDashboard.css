@@ -1,0 +1,64 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.cafe-dashboard {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Set minimum height to fill the viewport */
+    font-family: Arial, sans-serif;
+}
+
+.cafe-header {
+    background-color: #964b00;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.cafe-main {
+    display: flex;
+    flex-direction: column; /* Display sections vertically */
+    align-items: center; /* Center sections horizontally */
+    flex-grow: 1; /* Allow main content to grow */
+    padding: 20px;
+}
+
+.cafe-section {
+    margin-bottom: 30px; /* Add some spacing between sections */
+}
+
+.cafe-section-title {
+    text-align: center;
+}
+
+.cafe-item-container {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next row */
+    justify-content: center; /* Center items horizontally */
+}
+
+.cafe-item {
+    margin: 20px; /* Add some spacing around items */
+    text-align: center;
+}
+
+.cafe-item-image {
+    object-fit: contain;
+    width: 150px;
+    height: 150px;
+}
+
+.cafe-item-name {
+    margin-top: 10px;
+}
+
+.cafe-footer {
+    background-color: #964b00;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: auto; /* Push footer to the bottom */
+}
